@@ -81,3 +81,4 @@
 // console.log(rand([, 30]))
 // console.log(rand([]))
 // console.log(rand())
+
