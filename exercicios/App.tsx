@@ -42,7 +42,10 @@ import React from "react"
 import { View } from 'react-native'
 import {StyleSheet} from 'react-native'
 
-import Pai from './components/direta/Pai'
+import Diferenciar from './components/Diferenciar'
+// import ContadorV2 from './components/contador/ContadorV2'
+// import Pai from './components/indireta/Pai'
+// import Pai from './components/direta/Pai'
 // import Contador from './components/Contador'
 // import Botao from './components/Botao'
 // import Titulo from './components/Titulo'
@@ -55,7 +58,9 @@ import Pai from './components/direta/Pai'
 export default () => {
   return (
     <View style={style.App}>
-      <Pai></Pai>
+      <Diferenciar/>
+      {/* // <ContadorV2/> */}
+      {/* <Pai></Pai> */}
       {/* <Contador inicial={100} passo={10}/>
       <Contador/> */}
       {/* <Botao/>? */}
