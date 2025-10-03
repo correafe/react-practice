@@ -42,7 +42,15 @@ import React from "react"
 import { View } from 'react-native'
 import {StyleSheet} from 'react-native'
 
-import Diferenciar from './components/Diferenciar'
+import Quadrado from './components/layout/Quadrado'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+// import ListaProdutos from './components/produtos/ListaProdutosV2'
+// import ListaProdutos from './components/produtos/ListaProdutos'
+// import UsuarioLogado from './components/UsuarioLogado'
+// import Familia from './components/relacao/Familia'
+// import Membro from './components/relacao/Membro'
+// import ParImpar from './components/ParImpar'
+// import Diferenciar from './components/Diferenciar'
 // import ContadorV2 from './components/contador/ContadorV2'
 // import Pai from './components/indireta/Pai'
 // import Pai from './components/direta/Pai'
@@ -58,7 +66,22 @@ import Diferenciar from './components/Diferenciar'
 export default () => {
   return (
     <View style={style.App}>
-      <Diferenciar/>
+      <Quadrado/>
+      <Quadrado cor='#098'/>
+      {/* <DigiteSeuNome/> */}
+      {/* <ListaProdutos/> */}
+      {/* <ListaProdutos/> */}
+      {/* <UsuarioLogado usuario={{nome: 'felipe', email:'correagfe'}}/>
+      <UsuarioLogado usuario={{nome: 'gui', email:''}}/> */}
+      {/* <Familia>
+        <Membro nome="bia" sobrenome="silva"/>
+        <Membro nome="renata" sobrenome="silva"/>
+      </Familia>
+            <Familia>
+        <Membro nome="bia" sobrenome="castro"/>
+        <Membro nome="ricardo" sobrenome="castro"/>
+      </Familia> */}
+      {/* <ParImpar num={3}/> */}
       {/* // <ContadorV2/> */}
       {/* <Pai></Pai> */}
       {/* <Contador inicial={100} passo={10}/>
